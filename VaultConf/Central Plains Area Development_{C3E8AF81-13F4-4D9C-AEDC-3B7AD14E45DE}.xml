@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VaultConnections>
+	<Descriptions>
+		<VaultVersion>1.0</VaultVersion>
+		<VaultDescription>https://motivetr.cloudvault.m-files.com/Default.aspx?#ACF7FC8D-2A41-43FD-BACC-FDD895870357/object/046E9FAF-A09B-4177-87F6-65C61D852183/latest</VaultDescription>
+		<VaultType>LocalDefault</VaultType>
+	</Descriptions>
+	<VaultConnection>
+		<VaultDate>2019-01-01</VaultDate>
+		<ConnectionName>Central Plains Area Development</ConnectionName>
+		<InfoTip>Browse to this folder to view the contents of this document vault.</InfoTip>
+		<ProtocolSequence>ncacn_ip_tcp</ProtocolSequence>
+		<NetworkAddress>localhost</NetworkAddress>
+		<EndPoint>2266</EndPoint>
+		<ServerVaultGUID>{C3E8AF81-13F4-4D9C-AEDC-3B7AD14E45DE}</ServerVaultGUID>
+		<ServerVaultName>Central Plains Area Development</ServerVaultName>
+		<AuthType>1</AuthType>
+		<AutoLogin>0</AutoLogin>
+		<EncryptedConnection>0</EncryptedConnection>
+		<UserName></UserName>
+		<Password></Password>
+	</VaultConnection>
+</VaultConnections>

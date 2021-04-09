@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VaultConnections>
+	<Descriptions>
+		<VaultVersion>1.0</VaultVersion>
+		<VaultDescription>https://motivetr.cloudvault.m-files.com/Default.aspx?#ACF7FC8D-2A41-43FD-BACC-FDD895870357/object/2548AB84-B5F0-4FFE-B103-F77CA3BA2849/latest</VaultDescription>
+		<VaultType>CloudDefault</VaultType>
+	</Descriptions>
+	<VaultConnection>
+		<VaultDate>2019-09-19</VaultDate>
+		<ConnectionName>Embedded UI Demo Vault (Cloud)</ConnectionName>
+		<InfoTip>Browse to this folder to view the contents of this document vault.</InfoTip>
+		<ProtocolSequence>ncacn_ip_tcp</ProtocolSequence>
+		<NetworkAddress>mfdemo.democloud.m-files.com</NetworkAddress>
+		<EndPoint>2266</EndPoint>
+		<ServerVaultGUID>{EA2052A5-DB41-4506-A592-2853B308675E}</ServerVaultGUID>
+		<ServerVaultName>M-Files</ServerVaultName>
+		<AuthType>2</AuthType>
+		<AutoLogin>0</AutoLogin>
+		<EncryptedConnection>0</EncryptedConnection>
+		<UserName></UserName>
+		<Password></Password>
+	</VaultConnection>
+</VaultConnections>

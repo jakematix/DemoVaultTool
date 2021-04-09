@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VaultConnections>
+	<Descriptions>
+		<VaultVersion>1.0</VaultVersion>
+		<VaultDescription>m-files://show/ACF7FC8D-2A41-43FD-BACC-FDD895870357/0-335750?object=D063BB81-36C4-48A0-A79E-07D3FFD75E32</VaultDescription>
+		<VaultType>LocalDefault</VaultType>
+	</Descriptions>
+	<VaultConnection>
+		<VaultDate>2019-06-07</VaultDate>
+		<ConnectionName>M-Files for Manufacturing</ConnectionName>
+		<InfoTip>Browse to this folder to view the contents of this document vault.</InfoTip>
+		<ProtocolSequence>ncacn_ip_tcp</ProtocolSequence>
+		<NetworkAddress>localhost</NetworkAddress>
+		<EndPoint>2266</EndPoint>
+		<ServerVaultGUID>{0802E570-7C7A-4780-BC0B-F1769DEAE4F3}</ServerVaultGUID>
+		<ServerVaultName>M-Files for Manufacturing</ServerVaultName>
+		<AuthType>1</AuthType>
+		<AutoLogin>0</AutoLogin>
+		<EncryptedConnection>0</EncryptedConnection>
+		<UserName></UserName>
+		<Password></Password>
+	</VaultConnection>
+</VaultConnections>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VaultConnections>
+	<Descriptions>
+		<VaultVersion>1.0</VaultVersion>
+		<VaultDescription>https://motivetr.cloudvault.m-files.com/Default.aspx?#ACF7FC8D-2A41-43FD-BACC-FDD895870357/object/707519B6-3683-4051-A245-76514D1D89E9/latest</VaultDescription>
+		<VaultType>LocalDefault</VaultType>
+	</Descriptions>
+	<VaultConnection>
+		<VaultDate>2019-01-01</VaultDate>
+		<ConnectionName>M-Files 2018 Validation Vault</ConnectionName>
+		<InfoTip>Browse to this folder to view the contents of this document vault.</InfoTip>
+		<ProtocolSequence>ncacn_ip_tcp</ProtocolSequence>
+		<NetworkAddress>localhost</NetworkAddress>
+		<EndPoint>2266</EndPoint>
+		<ServerVaultGUID>{4DD63481-AE4E-43A5-9E08-404ABFF706AE}</ServerVaultGUID>
+		<ServerVaultName>M-Files QMS Validation Vault</ServerVaultName>
+		<AuthType>1</AuthType>
+		<AutoLogin>0</AutoLogin>
+		<EncryptedConnection>0</EncryptedConnection>
+		<UserName></UserName>
+		<Password></Password>
+	</VaultConnection>
+</VaultConnections>

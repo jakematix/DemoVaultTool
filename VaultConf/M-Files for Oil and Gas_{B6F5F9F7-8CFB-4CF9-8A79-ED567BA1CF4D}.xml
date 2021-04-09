@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VaultConnections>
+	<Descriptions>
+		<VaultVersion>1.0</VaultVersion>
+		<VaultDescription>https://motivetr.cloudvault.m-files.com/Default.aspx?#ACF7FC8D-2A41-43FD-BACC-FDD895870357/object/E2317B63-F31A-4F2B-AF5F-8AC01E8E172B/latest</VaultDescription>
+		<VaultType>LocalDefault</VaultType>
+	</Descriptions>
+	<VaultConnection>
+		<VaultDate>2019-06-07</VaultDate>
+		<ConnectionName>M-Files for Oil and Gas</ConnectionName>
+		<InfoTip>Browse to this folder to view the contents of this document vault.</InfoTip>
+		<ProtocolSequence>ncacn_ip_tcp</ProtocolSequence>
+		<NetworkAddress>localhost</NetworkAddress>
+		<EndPoint>2266</EndPoint>
+		<ServerVaultGUID>{B6F5F9F7-8CFB-4CF9-8A79-ED567BA1CF4D}</ServerVaultGUID>
+		<ServerVaultName>M-Files for Oil and Gas</ServerVaultName>
+		<AuthType>1</AuthType>
+		<AutoLogin>0</AutoLogin>
+		<EncryptedConnection>0</EncryptedConnection>
+		<UserName></UserName>
+		<Password></Password>
+	</VaultConnection>
+</VaultConnections>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VaultConnections>
+	<Descriptions>
+		<VaultVersion>1.0</VaultVersion>
+		<VaultDescription>https://motivetr.cloudvault.m-files.com/Default.aspx?#ACF7FC8D-2A41-43FD-BACC-FDD895870357/object/7405508E-E399-4B25-A8A9-9065852A5254/latest</VaultDescription>
+		<VaultType>LocalDefault</VaultType>
+	</Descriptions>
+	<VaultConnection>
+		<VaultDate>2019-01-01</VaultDate>
+		<ConnectionName>M-Files for Sales (Beta)</ConnectionName>
+		<InfoTip>Browse to this folder to view the contents of this document vault.</InfoTip>
+		<ProtocolSequence>ncacn_ip_tcp</ProtocolSequence>
+		<NetworkAddress>localhost</NetworkAddress>
+		<EndPoint>2266</EndPoint>
+		<ServerVaultGUID>{3ED831D0-3EBD-4CC9-A0A1-7CBAC7091C96}</ServerVaultGUID>
+		<ServerVaultName>M-Files CRM</ServerVaultName>
+		<AuthType>1</AuthType>
+		<AutoLogin>0</AutoLogin>
+		<EncryptedConnection>0</EncryptedConnection>
+		<UserName></UserName>
+		<Password></Password>
+	</VaultConnection>
+</VaultConnections>

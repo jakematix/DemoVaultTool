@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VaultConnections>
+	<Descriptions>
+		<VaultVersion>1.0</VaultVersion>
+		<VaultDescription></VaultDescription>
+    <VaultType>CloudDefault</VaultType>
+	</Descriptions>
+	<VaultConnection>
+		<VaultDate>2019-01-01</VaultDate>
+		<ConnectionName>ESRI Demo Vault (Cloud)</ConnectionName>
+		<InfoTip>Browse to this folder to view the contents of this document vault.</InfoTip>
+		<ProtocolSequence>ncacn_http</ProtocolSequence>
+		<NetworkAddress>salesdemo-vm-us.democloud.m-files.com</NetworkAddress>
+		<EndPoint>4466</EndPoint>
+		<ServerVaultGUID>{5E0BBFBF-11A1-4564-98B1-73EC793213B2}</ServerVaultGUID>
+		<ServerVaultName>Proto - AGOL ArcGIS</ServerVaultName>
+		<AuthType>3</AuthType>
+		<AutoLogin>0</AutoLogin>
+		<EncryptedConnection>0</EncryptedConnection>
+		<UserName>admin</UserName>
+		<Password>MotSys123!</Password>
+	</VaultConnection>
+</VaultConnections> 
