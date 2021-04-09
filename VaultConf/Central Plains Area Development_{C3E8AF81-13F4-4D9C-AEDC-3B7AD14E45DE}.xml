@@ -4,6 +4,7 @@
 		<VaultVersion>1.0</VaultVersion>
 		<VaultDescription>https://motivetr.cloudvault.m-files.com/Default.aspx?#ACF7FC8D-2A41-43FD-BACC-FDD895870357/object/046E9FAF-A09B-4177-87F6-65C61D852183/latest</VaultDescription>
 		<VaultType>LocalDefault</VaultType>
+    <MFilesVersion>19.10.8349.5</MFilesVersion>
 	</Descriptions>
 	<VaultConnection>
 		<VaultDate>2019-01-01</VaultDate>

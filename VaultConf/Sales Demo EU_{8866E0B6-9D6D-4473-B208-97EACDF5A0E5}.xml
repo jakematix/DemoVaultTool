@@ -2,11 +2,12 @@
 <VaultConnections>
 	<Descriptions>
 		<VaultVersion>1.0</VaultVersion>
-		<VaultDescription>https://motivetr.cloudvault.m-files.com/Default.aspx?#ACF7FC8D-2A41-43FD-BACC-FDD895870357/object/2548AB84-B5F0-4FFE-B103-F77CA3BA2849/latest</VaultDescription>
-    <VaultType>CloudDefault</VaultType>
+		<VaultDescription></VaultDescription>
+		<VaultType>CloudDefault</VaultType>
+		<MFilesVersion>20.11.9630.6</MFilesVersion>
 	</Descriptions>
 	<VaultConnection>
-		<VaultDate>2019-01-01</VaultDate>
+		<VaultDate>2020-11-24</VaultDate>
 		<ConnectionName>Sales Demo EU (Cloud)</ConnectionName>
 		<InfoTip>Browse to this folder to view the contents of this document vault.</InfoTip>
 		<ProtocolSequence>ncacn_http</ProtocolSequence>
@@ -14,10 +15,10 @@
 		<EndPoint>4466</EndPoint>
 		<ServerVaultGUID>{8866E0B6-9D6D-4473-B208-97EACDF5A0E5}</ServerVaultGUID>
 		<ServerVaultName>Azure Demo EU</ServerVaultName>
-		<AuthType>3</AuthType>
+		<AuthType>2</AuthType>
 		<AutoLogin>0</AutoLogin>
 		<EncryptedConnection>0</EncryptedConnection>
-		<UserName>demo_eu.sales</UserName>
-		<Password>MotSys123</Password>
+		<UserName></UserName>
+		<Password></Password>
 	</VaultConnection>
 </VaultConnections>

@@ -143,6 +143,7 @@ namespace DemoEnvironmentVaultTool
             MFilesServerApplication oMFServerApp = MFilesOperations.GetMFServerConnection(); 
             // MFilesServerApplication oMFServerApp = GetMFServerConnection();
             VaultConnection vConn = new VaultConnection();
+            
 
             // xmlFile = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + Constants.xmlVaultConfPath + xmlFile;
 
@@ -312,6 +313,11 @@ namespace DemoEnvironmentVaultTool
         {
 
         }
+
+        private void StoreConnectionButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 
@@ -321,6 +327,7 @@ namespace DemoEnvironmentVaultTool
         public string VaultDescription { get; set; }
         public string VaultType { get; set; }
         public string VaultDate { get; set; }
+        public string MFilesVersion { get; set; }
         public string ConnectionName { get; set; }
         public string InfoTip { get; set; }
         public string ProtocolSequence { get; set; }
@@ -344,6 +351,7 @@ namespace DemoEnvironmentVaultTool
                 string vaultVersion = null;
                 string vaultDescription = null;
                 string vaultType = null;
+                string mFilesVersion = null;
                 string vaultDate = null;
                 string connectionName = null;
                 string infoTip = null;
@@ -386,6 +394,14 @@ namespace DemoEnvironmentVaultTool
                             if (reader.NodeType == XmlNodeType.Element && reader.Name == "VaultType")
                             {
                                 vaultType = reader.ReadElementContentAsString();
+                                break;
+                            }
+                        }
+                        while (reader.Read())
+                        {
+                            if (reader.NodeType == XmlNodeType.Element && reader.Name == "MFilesVersion")
+                            {
+                                mFilesVersion = reader.ReadElementContentAsString();
                                 break;
                             }
                         }
@@ -503,6 +519,7 @@ namespace DemoEnvironmentVaultTool
                             VaultDescription = vaultDescription,
                             VaultType = vaultType,
                             VaultDate = vaultDate,
+                            MFilesVersion = mFilesVersion,
                             ConnectionName = connectionName,
                             InfoTip = infoTip,
                             ProtocolSequence = protocolSequence,

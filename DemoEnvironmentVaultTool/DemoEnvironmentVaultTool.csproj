@@ -11,6 +11,7 @@
     <AssemblyName>DemoEnvironmentVaultTool</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -23,7 +24,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -117,6 +117,12 @@
     <Compile Include="AzureOperations.cs" />
     <Compile Include="Connectivity.cs" />
     <Compile Include="Constants.cs" />
+    <Compile Include="DescriptionViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DescriptionViewer.Designer.cs">
+      <DependentUpon>DescriptionViewer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,6 +141,7 @@
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
+    <Compile Include="LocalFileOperations.cs" />
     <Compile Include="MFilesOperations.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -143,6 +150,12 @@
     </Compile>
     <Compile Include="RestoreFromSnapshot.Designer.cs">
       <DependentUpon>RestoreFromSnapshot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SetServerLicenseCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetServerLicenseCode.Designer.cs">
+      <DependentUpon>SetServerLicenseCode.cs</DependentUpon>
     </Compile>
     <Compile Include="SnapshotName.cs">
       <SubType>Form</SubType>
@@ -163,6 +176,12 @@
       <DependentUpon>UpdateMFiles.cs</DependentUpon>
     </Compile>
     <Compile Include="UserMessages.cs" />
+    <Compile Include="VaultAppManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VaultAppManager.Designer.cs">
+      <DependentUpon>VaultAppManager.cs</DependentUpon>
+    </Compile>
     <Compile Include="VaultCopyParameters.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -175,6 +194,9 @@
     <Compile Include="VaultDownload.Designer.cs">
       <DependentUpon>VaultDownload.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="DescriptionViewer.resx">
+      <DependentUpon>DescriptionViewer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -192,9 +214,13 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="RestoreFromSnapshot.resx">
       <DependentUpon>RestoreFromSnapshot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetServerLicenseCode.resx">
+      <DependentUpon>SetServerLicenseCode.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SnapshotName.resx">
       <DependentUpon>SnapshotName.cs</DependentUpon>
@@ -204,6 +230,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UpdateMFiles.resx">
       <DependentUpon>UpdateMFiles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VaultAppManager.resx">
+      <DependentUpon>VaultAppManager.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VaultCopyParameters.resx">
       <DependentUpon>VaultCopyParameters.cs</DependentUpon>
@@ -229,6 +258,23 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
     <COMReference Include="MFilesAPI">
       <Guid>{B9C079AA-92DD-4FB4-A0E0-AA3198955B45}</Guid>
       <VersionMajor>1</VersionMajor>
@@ -250,6 +296,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="DemoEnvironmentVaultTool.ico" />
+    <None Include="Resources\external_repository_png40.png" />
+    <None Include="Resources\external repository_medium.png" />
+    <None Include="Resources\external_repository_s01.png" />
+    <None Include="Resources\external_repository_s0.png" />
+    <None Include="Resources\app_configman_s0.png" />
+    <None Include="Resources\save.png" />
+    <None Include="Resources\save_s0.png" />
+    <None Include="Resources\ebc_toolkit.png" />
+    <None Include="Resources\arrow_drop_down_s0.png" />
+    <None Include="Resources\operation_s1.png" />
+    <None Include="Resources\localvault.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">

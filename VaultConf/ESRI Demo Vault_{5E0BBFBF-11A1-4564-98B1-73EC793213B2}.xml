@@ -6,7 +6,7 @@
     <VaultType>CloudDefault</VaultType>
 	</Descriptions>
 	<VaultConnection>
-		<VaultDate>2019-01-01</VaultDate>
+		<VaultDate>2020-11-24</VaultDate>
 		<ConnectionName>ESRI Demo Vault (Cloud)</ConnectionName>
 		<InfoTip>Browse to this folder to view the contents of this document vault.</InfoTip>
 		<ProtocolSequence>ncacn_http</ProtocolSequence>

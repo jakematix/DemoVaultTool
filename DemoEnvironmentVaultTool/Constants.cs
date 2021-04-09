@@ -1,5 +1,7 @@
 ﻿
 
+using Microsoft.WindowsAzure.Storage.Shared.Protocol;
+
 namespace DemoEnvironmentVaultTool
 {
     static class Constants
@@ -13,14 +15,17 @@ namespace DemoEnvironmentVaultTool
         public const string moreInfoPath = "C:\\Tools\\MoreInfoTemp\\";
         public const string localizationPath = "\\M-Files\\Demo Vault Tool\\Localizations\\";
         public const string serverVaultsFolder = "C:\\Program Files\\M-Files\\Server Vaults\\";
-        // public const string vaultConfigurationPath = "C:\\MFDE Utilities\\VaultConfigurations\\";
-        // public const string regPath = "C:\\MFDE Utilities\\VaultConfigurations\\RegistrySettings\\";
         public const string xmlVaultConfPath = "\\M-Files\\Demo Vault Tool\\VaultConf\\";
+        public const string vaultDescriptionPath = "\\M-Files\\Demo Vault Tool\\Descriptions\\";
         public const int vaultNameInfoLocation = 0; // denotes column index "Vault Name" in Currently Installed Vaults view
         public const int versionInfoLocation = 1; // denotes column index "Version" in Currently Installed Vaults view
         public const int defaultInfoLocation = 2; // denotes column index "Default" in Currently Installed Vaults view
         public const int dateInfoLocation = 3; // denotes column index "Creation Date" in Currently Installed vaults view
         public const int vaultGUIDInfoLocation = 4; // denotes hidden columns index "Vault GUID" in Currently Installed Vaults view.
+        public const int appApplicationIDLocation = 6; // denotes hidden column index "Application ID" in Vault Application Manager view.
+        public const int appVaultGUIDLocation = 7; // denotes hidden column index "Vault GUID" in Vault Application Manager view.
+        public const int appVaultNoteLocation = 5; // denotes Note column in Vault Application Manager view.
+        public const int appApplicationVersionLocation = 1; // denotes Version columns in Vault Application Manager view.
         // ------------------------------------------------------------------------------------------------------------------------------
 
         // -------------- Connection details --------------------------------------------------------------------------------------------
@@ -37,7 +42,9 @@ namespace DemoEnvironmentVaultTool
         public const string infoTip = "Browse to this folder to view the contents of this document vault.";
         public const string azureShareReference = "democontent";
         public const string vaultDirectoryNameInAzure = "Vaults";
+        public const string connectionDataDirectoryNameInAzure = "CloudVaultConnections";
         public const string mFilesInstallerDirectoryNameInAzure = "MFilesInstallers";
+        public const string applicationDirectoryNameInAzure = "VaultApplications";
         // ------------------------------------------------------------------------------------------------------------------------------
                
         // -------------- User Messages -------------------------------------------------------------------------------------------------
@@ -87,17 +94,34 @@ namespace DemoEnvironmentVaultTool
         public const string selectSnapshotMessage = "Select first the Snapshot.";
         public const string snapshotRemovedMessage = "Snapshot is destroyed!";
         public const string operationCancelledMessage = "Operation cancelled!";
-        public const string selectVaultToBeDownloaded = "You must first select the vault to be installed in the Demo Environment!";
-
-
-
-
-
-
+        public const string selectVaultToBeDownloaded = "You must first select the vault to be added.";
+        public const string needToUpdateMFilesMessage = "The vault you are about to download requires M-Files version {0}.\r\n\r\n" +
+            "Please, update M-Files in your Demo Environment.";
+        public const string mFilesVersionMismatchTitle = "M-Files version mismatch";
+        public const string selectConnectionToBeDownloaded = "You must first select the cloud vault connection to be added.";
+        public const string cloudVaultConnectionAdded = "{0} cloud vault connection added.";
+        public const string licenseCodeSuccess = "License code changed successfully.";
+        public const string licenseCodeError = "Error when changing the license code!";
+        public const string licenseCodeFieldEmptyError = "You need to give a license code!";
+        public const string licenseExpiredError = "M-Files server license has been expired.\r\nYou need to update Demo License. Click ´Server License´ to update.";
+        public const string vaultOnlineMessage = "Bringing the vault Online. Please wait...";
+        public const string vaultOfflineMessage = "Taking the vault Offline. Please wait...";
+        public const string closingOnlineVaultsMessage = "Taking the online vaults to Offline. Please wait...";
+        public const string vaultIsRestartingMessage = "The vault is restarting. Please wait...";
+        public const string applicationInstalledMessage = "Application installed. Vault will be restarted.";
+        public const string applicationLicenseIsUpdating = "Vault Application License is being updated. Please wait...";
+        public const string applicationLicenseUpdatedMessage = "Vault Application License updated.";
+        public const string selectApplicationToUpdateLicense = "Select first the application for License update.";
+        public const string selectApplicationToBeRemoved = "Select first the application to be removed.";
+        public const string applicationRemoved = "Vault Application removed. Vault will be restarted.";
+        public const string applicationUpdateAvailable = "Application update available!";
+        public const string licenseUpdateAvailable = "License update available!";
+        public const string selectApplicationToBeUpdated = "Select first the application to be updated.";
+        public const string questionToProceedToAppUpdate = "Application will be updated. Vault is restarted during the operation.\r\n\r\n" +
+            "Are you ready to proceed?";
+        public const string vaultAppQuestionCaption = "Vault Application Update";
+        public const string selectVaultForAppManager = "Select first the vault.";
+        public const string somethingWentWrongMessage = "Something went wrong!\r\n\r\n";
         // ------------------------------------------------------------------------------------------------------------------------------
-
-
-
-
     }
 }
