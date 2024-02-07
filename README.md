@@ -19,10 +19,10 @@ The tool is implemented using C# and .NET. M-Files specific implementation is ba
 
 ### Main window
 
-![Main Window of the Demo Vault Tool](/images/DemoVaultToolMainWindow.png)
+![Main Window of the Demo Vault Tool](/Images/DemoVaultToolMainWindow.png)
 
 ### Vault Connection Manager
-![Vault Connection Manager](/images/Connections.png)
+![Vault Connection Manager](/Images/Connections.png)
 
 ### Vault Library Manager
-![Vault Library Manager](/images/VaultLibraryAccess.png)
+![Vault Library Manager](/Images/VaultLibraryAccess.png)
