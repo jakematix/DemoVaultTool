@@ -412,3 +412,585 @@ C:\Users\jarmo.kant\Documents\Visual Studio 2017\Projects\DemoEnvironmentVaultTo
 C:\Users\jarmo.kant\Documents\Visual Studio 2017\Projects\DemoEnvironmentVaultTool_v46_x64\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.CopyComplete
 C:\Users\jarmo.kant\Documents\Visual Studio 2017\Projects\DemoEnvironmentVaultTool_v46_x64\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.exe
 C:\Users\jarmo.kant\Documents\Visual Studio 2017\Projects\DemoEnvironmentVaultTool_v46_x64\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.exe.config
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.exe
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool\DemoEnvironmentVaultTool\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool\DemoEnvironmentVaultTool\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool\DemoEnvironmentVaultTool\bin\Debug\System.Management.Automation.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool\DemoEnvironmentVaultTool\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csprojAssemblyReference.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool\DemoEnvironmentVaultTool\obj\Debug\Interop.WUApiLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.ResolveComReference.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.Form1.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.enableDisableForm.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.WelcomeScreen.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.Properties.Resources.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.RestoreFromSnapshot.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.SnapshotName.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.snapshotToolForm.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.UpdateMFiles.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultCopyParameters.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultDownload.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.GenerateResource.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.CoreCompileInputs.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.CopyComplete
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.exe
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.exe.config
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.exe
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\bin\Debug\System.Management.Automation.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csprojAssemblyReference.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\obj\Debug\Interop.WUApiLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.ResolveComReference.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.Form1.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.enableDisableForm.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.WelcomeScreen.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.Properties.Resources.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.RestoreFromSnapshot.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.SnapshotName.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.snapshotToolForm.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.UpdateMFiles.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultCopyParameters.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultDownload.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.GenerateResource.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.CoreCompileInputs.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.CopyComplete
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.exe
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_02\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.DescriptionViewer.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.exe.config
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.exe
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\bin\Debug\System.Management.Automation.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csprojAssemblyReference.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\obj\Debug\Interop.WUApiLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.ResolveComReference.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.DescriptionViewer.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.Form1.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.enableDisableForm.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.WelcomeScreen.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.Properties.Resources.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.RestoreFromSnapshot.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.SnapshotName.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.snapshotToolForm.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.UpdateMFiles.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultCopyParameters.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultDownload.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.GenerateResource.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.CoreCompileInputs.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.CopyComplete
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.exe
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_03\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.SetServerLicenseCode.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.exe.config
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.exe
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\bin\Debug\System.Management.Automation.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csprojAssemblyReference.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\obj\Debug\Interop.WUApiLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.ResolveComReference.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.DescriptionViewer.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.Form1.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.enableDisableForm.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.WelcomeScreen.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.Properties.Resources.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.RestoreFromSnapshot.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.SetServerLicenseCode.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.SnapshotName.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.snapshotToolForm.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.UpdateMFiles.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultAppManager.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultCopyParameters.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultDownload.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.GenerateResource.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.CoreCompileInputs.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.CopyComplete
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.exe
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_04\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.exe.config
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.exe
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\bin\Debug\System.Management.Automation.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csprojAssemblyReference.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\obj\Debug\Interop.WUApiLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.ResolveComReference.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.DescriptionViewer.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.Form1.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.enableDisableForm.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.WelcomeScreen.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.Properties.Resources.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.RestoreFromSnapshot.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.SetServerLicenseCode.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.SnapshotName.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.snapshotToolForm.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.UpdateMFiles.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultAppManager.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultCopyParameters.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultDownload.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.GenerateResource.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.CoreCompileInputs.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.CopyComplete
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.exe
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_05\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.exe.config
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.exe
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\bin\Debug\System.Management.Automation.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csprojAssemblyReference.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\obj\Debug\Interop.WUApiLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.ResolveComReference.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.DescriptionViewer.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.Form1.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.enableDisableForm.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.WelcomeScreen.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.Properties.Resources.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.RestoreFromSnapshot.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.SetServerLicenseCode.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.SnapshotName.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.snapshotToolForm.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.UpdateMFiles.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultAppManager.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultCopyParameters.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultDownload.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.GenerateResource.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.CoreCompileInputs.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.CopyComplete
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.exe
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_06\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.exe.config
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.exe
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\bin\Debug\System.Management.Automation.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csprojAssemblyReference.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\obj\Debug\Interop.WUApiLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.ResolveComReference.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.DescriptionViewer.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.Form1.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.enableDisableForm.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.WelcomeScreen.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.Properties.Resources.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.RestoreFromSnapshot.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.SetServerLicenseCode.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.SnapshotName.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.snapshotToolForm.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.UpdateMFiles.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultAppManager.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultCopyParameters.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultDownload.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.GenerateResource.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.CoreCompileInputs.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.CopyComplete
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.exe
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_07\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csprojAssemblyReference.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\obj\Debug\Interop.WUApiLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.ResolveComReference.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.DescriptionViewer.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.Form1.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.enableDisableForm.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.WelcomeScreen.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.Properties.Resources.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.RestoreFromSnapshot.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.SetServerLicenseCode.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.SnapshotName.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.snapshotToolForm.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.UpdateMFiles.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultAppManager.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultCopyParameters.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultDownload.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.GenerateResource.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.CoreCompileInputs.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.exe
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.exe.config
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.exe
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\bin\Debug\System.Management.Automation.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_08\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.CopyComplete
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.exe.config
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.exe
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\bin\Debug\System.Management.Automation.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csprojAssemblyReference.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\obj\Debug\Interop.WUApiLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.ResolveComReference.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.DescriptionViewer.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.Form1.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.enableDisableForm.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.WelcomeScreen.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.Properties.Resources.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.RestoreFromSnapshot.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.SetServerLicenseCode.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.SnapshotName.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.snapshotToolForm.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.UpdateMFiles.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultAppManager.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultCopyParameters.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultDownload.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.GenerateResource.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.CoreCompileInputs.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.CopyComplete
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.exe
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_09\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.exe.config
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.exe
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\bin\Debug\System.Management.Automation.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csprojAssemblyReference.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\obj\Debug\Interop.WUApiLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.ResolveComReference.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.DescriptionViewer.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.Form1.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.enableDisableForm.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.WelcomeScreen.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.Properties.Resources.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.RestoreFromSnapshot.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.SetServerLicenseCode.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.SnapshotName.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.snapshotToolForm.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.UpdateMFiles.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultAppManager.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultCopyParameters.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultDownload.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.GenerateResource.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.CoreCompileInputs.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.CopyComplete
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.exe
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_10\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.exe.config
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.exe
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\bin\Debug\System.Management.Automation.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csprojAssemblyReference.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\obj\Debug\Interop.WUApiLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.ResolveComReference.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.DescriptionViewer.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.Form1.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.enableDisableForm.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.WelcomeScreen.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.Properties.Resources.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.RestoreFromSnapshot.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.SetServerLicenseCode.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.SnapshotName.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.snapshotToolForm.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.UpdateMFiles.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultAppManager.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultCopyParameters.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultDownload.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.GenerateResource.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.CoreCompileInputs.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.CopyComplete
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.exe
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_11\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.exe.config
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.exe
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\bin\Debug\System.Management.Automation.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csprojAssemblyReference.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\obj\Debug\Interop.WUApiLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.ResolveComReference.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.DescriptionViewer.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.Form1.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.enableDisableForm.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.WelcomeScreen.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.Properties.Resources.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.RestoreFromSnapshot.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.SetServerLicenseCode.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.SnapshotName.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.snapshotToolForm.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.UpdateMFiles.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultAppManager.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultCopyParameters.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultDownload.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.GenerateResource.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.CoreCompileInputs.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.CopyComplete
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.exe
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_12\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.exe.config
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.exe
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\bin\Debug\System.Management.Automation.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csprojAssemblyReference.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\Interop.WUApiLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.ResolveComReference.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.DescriptionViewer.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.Form1.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.enableDisableForm.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.WelcomeScreen.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.Properties.Resources.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.RestoreFromSnapshot.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.SetServerLicenseCode.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.SnapshotName.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.snapshotToolForm.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.UpdateMFiles.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultAppManager.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultCopyParameters.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultDownload.resources
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.GenerateResource.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.CoreCompileInputs.cache
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.CopyComplete
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.exe
+C:\Users\jarmo.kant\source\repos\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.pdb
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.exe.config
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.exe
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.pdb
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\bin\Debug\System.Management.Automation.dll
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csprojAssemblyReference.cache
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\Interop.WUApiLib.dll
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.ResolveComReference.cache
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.DescriptionViewer.resources
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.Form1.resources
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.enableDisableForm.resources
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.WelcomeScreen.resources
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.Properties.Resources.resources
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.RestoreFromSnapshot.resources
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.SetServerLicenseCode.resources
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.SnapshotName.resources
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.snapshotToolForm.resources
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.UpdateMFiles.resources
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultAppManager.resources
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultCopyParameters.resources
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultDownload.resources
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.GenerateResource.cache
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.CoreCompileInputs.cache
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.CopyComplete
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.exe
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.0 - Internal version - Final and Official\DemoEnvironmentVaultTool_13\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.pdb
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.exe.config
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.exe
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.pdb
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\bin\Debug\System.Management.Automation.dll
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csprojAssemblyReference.cache
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\Interop.WUApiLib.dll
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.ResolveComReference.cache
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.DescriptionViewer.resources
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.Form1.resources
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.enableDisableForm.resources
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.WelcomeScreen.resources
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.Properties.Resources.resources
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.RestoreFromSnapshot.resources
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.SetServerLicenseCode.resources
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.SnapshotName.resources
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.snapshotToolForm.resources
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.UpdateMFiles.resources
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultAppManager.resources
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultCopyParameters.resources
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultDownload.resources
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.GenerateResource.cache
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.CoreCompileInputs.cache
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.CopyComplete
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.exe
+C:\Users\jarmo.kant\source\repos\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.pdb
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.exe.config
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.exe
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\bin\Debug\DemoEnvironmentVaultTool.pdb
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\bin\Debug\System.Management.Automation.dll
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csprojAssemblyReference.cache
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\Interop.WUApiLib.dll
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.ResolveComReference.cache
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.DescriptionViewer.resources
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.Form1.resources
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.enableDisableForm.resources
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.WelcomeScreen.resources
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.Properties.Resources.resources
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.RestoreFromSnapshot.resources
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.SetServerLicenseCode.resources
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.SnapshotName.resources
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.snapshotToolForm.resources
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.UpdateMFiles.resources
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultAppManager.resources
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultCopyParameters.resources
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.VaultDownload.resources
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.GenerateResource.cache
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.CoreCompileInputs.cache
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.csproj.CopyComplete
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.exe
+C:\Users\jarmo.kant\source\repos\Demo Vault Tool 2.1 - Partner version - Final and Official\DemoVaultToolForPartners\DemoEnvironmentVaultTool\obj\Debug\DemoEnvironmentVaultTool.pdb

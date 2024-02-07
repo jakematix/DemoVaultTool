@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <VaultConnections>
 	<Descriptions>
-		<VaultVersion>1.0</VaultVersion>
-		<VaultDescription>https://motivetr.cloudvault.m-files.com/Default.aspx?#ACF7FC8D-2A41-43FD-BACC-FDD895870357/object/06905620-3682-4B24-A088-1594243624FE/latest</VaultDescription>
+		<VaultVersion>1.1</VaultVersion>
+		<VaultDescription></VaultDescription>
 		<VaultType>LocalDefault</VaultType>
+    <MFilesVersion>20.12.9735.6</MFilesVersion>
 	</Descriptions>
 	<VaultConnection>
-		<VaultDate>2019-06-26</VaultDate>
+		<VaultDate>2021-01-07</VaultDate>
 		<ConnectionName>M-Files Project Documents Demo</ConnectionName>
 		<InfoTip>Browse to this folder to view the contents of this document vault.</InfoTip>
 		<ProtocolSequence>ncacn_ip_tcp</ProtocolSequence>

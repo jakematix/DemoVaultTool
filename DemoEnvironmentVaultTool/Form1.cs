@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
-using System.Linq;
 using System.IO;
 using System.Windows.Forms;
 using System.Diagnostics;
@@ -12,13 +11,13 @@ using System.Globalization;
 using System.Management.Automation;
 using MFilesAPI;
 using System.Xml;
-
+using Microsoft.Win32;
 
 namespace DemoEnvironmentVaultTool
 {
     public partial class Form1 : Form
     {
-
+        
 
         public Form1()
         {
@@ -27,28 +26,37 @@ namespace DemoEnvironmentVaultTool
             // Initialize Background worker
 
 
-
+            PrivilegedProtectedMode(0);
             checkUpdateWorker.DoWork += new DoWorkEventHandler(checkUpdateWorker_DoWork);
             checkUpdateWorker.RunWorkerCompleted += new RunWorkerCompletedEventHandler(checkUpdateWorker_RunWorkerCompleted);
             checkUpdateWorker.WorkerReportsProgress = false;
+            vaultOnlineWorker.DoWork += new DoWorkEventHandler(vaultOnlineWorker_DoWork);
+            vaultOnlineWorker.ProgressChanged += new ProgressChangedEventHandler(vaultOnlineWorker_ProgressChanged);
+            vaultOnlineWorker.RunWorkerCompleted += new RunWorkerCompletedEventHandler(vaultOnlineWorker_RunWorkerCompleted);
+
 
         }
-
+        
         private BackgroundWorker checkUpdateWorker = new BackgroundWorker();
-
+        private BackgroundWorker vaultOnlineWorker = new BackgroundWorker();
+        LocalFileOperations localFileOperations = new LocalFileOperations();
 
 
 
         private void Form1_Load(object sender, EventArgs e)
         {
             AzureOperations azureOperations = new AzureOperations();
-            this.MinimumSize = new Size(821, 686);
-            this.MaximumSize = new Size(821, 686);
+            this.MinimumSize = new Size(910, 765);
+            this.MaximumSize = new Size(910, 765);
             winUpdateButton.Visible = false;
             UpdateMFilesButton.Visible = false;
-            ClearTemps();
+            localFileOperations.ClearTemp();
+            localFileOperations.ClearUpdateTempPath();
+            // ClearTemps();
             RefreshVaultView();
+            UpdateServerVersionAndLic();
             PopulateLocalizations();
+            
             
 
             if (Connectivity.ConnectivityStatus(connectivityLabel))
@@ -62,7 +70,6 @@ namespace DemoEnvironmentVaultTool
             }
             else
             {
-
                 moreInfoButton.Enabled = false;
             }
         }
@@ -72,6 +79,22 @@ namespace DemoEnvironmentVaultTool
             Application.Run(new WelcomeScreen());
         }
 
+        public void UpdateServerVersionAndLic()
+        {
+            MFilesOperations mFilesOperations = new MFilesOperations();
+            string serverVersion = mFilesOperations.GetMFServerVersion();
+            mFVersion.Text = serverVersion;
+            LicenseStatus licenseStatus = mFilesOperations.GetServerLicenseStatus();
+            if (licenseStatus.Expired)
+            {
+                serverLicStatus.Text = "Expired";
+                MessageBox.Show(Constants.licenseExpiredError);
+            }
+            else
+                serverLicStatus.Text = "Active";
+        }
+
+        /*
         private void ClearTemps()
         {
             if (Directory.Exists(Constants.tempPath))
@@ -79,6 +102,7 @@ namespace DemoEnvironmentVaultTool
             if (Directory.Exists(Constants.updateTempPath))
                 Directory.Delete(Constants.updateTempPath, true);
         }
+        */
 
         private string VersionWithPaddingZeros(string rawVersionNumber)
         {
@@ -104,8 +128,8 @@ namespace DemoEnvironmentVaultTool
             AzureOperations azureOperations = new AzureOperations();
             string updServerVersion = azureOperations.GetMFilesInstallerDirectoryInAzure();
 
-            uint mFserverVersion = UInt32.Parse(VersionWithPaddingZeros(serverVersion));
-            uint updateServerVersion = UInt32.Parse(VersionWithPaddingZeros(updServerVersion));
+            UInt64 mFserverVersion = UInt64.Parse(VersionWithPaddingZeros(serverVersion));
+            UInt64 updateServerVersion = UInt64.Parse(VersionWithPaddingZeros(updServerVersion));
 
             if (updateServerVersion > mFserverVersion)
             {
@@ -273,6 +297,12 @@ namespace DemoEnvironmentVaultTool
             vaultTypeNode.AppendChild(confFile.CreateTextNode("UserMade"));
             descriptionsNode.AppendChild(vaultTypeNode);
 
+            MFilesOperations mFilesOperations = new MFilesOperations();
+            string serverVersion = mFilesOperations.GetMFServerVersion();
+            XmlNode mFilesVersionNode = confFile.CreateElement("MFilesVersion");
+            mFilesVersionNode.AppendChild(confFile.CreateTextNode(serverVersion));
+            descriptionsNode.AppendChild(mFilesVersionNode);
+
             XmlNode vaultConnectionNode = confFile.CreateElement("VaultConnection");
             vaultConnectionsNode.AppendChild(vaultConnectionNode);
 
@@ -401,7 +431,7 @@ namespace DemoEnvironmentVaultTool
             // 1. If the vault is Online, put it Offline
             // 2. Remove vault connection
             // 3. Destroy the vault
-            // 4. Delete configuration XML
+            // 4. Delete configuration XML and description PDF
             // 5. Restart M-Files Client
 
             bool success = false;
@@ -435,7 +465,11 @@ namespace DemoEnvironmentVaultTool
                         File.Delete(vaultConfFile);
                 }
 
-                // 4.1 
+                // 4.1 Delete Vault Description PDF file is exist
+                string pdfFile = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + Constants.vaultDescriptionPath
+                    + vaultName + ".pdf";
+                if (File.Exists(pdfFile))
+                    File.Delete(pdfFile);
 
                 // 5. Restart M-Files Client Service
 
@@ -455,15 +489,6 @@ namespace DemoEnvironmentVaultTool
             
             return success;
         }
-
-        /*
-        private void restoreFromBackUpButton_Click(object sender, EventArgs e)
-        {
-            snapshotToolForm SnapshotToolForm = new snapshotToolForm();
-            SnapshotToolForm.Show();
-        }
-
-            */
 
         protected void checkUpdateWorker_DoWork(object sender, DoWorkEventArgs e)
         {
@@ -549,6 +574,7 @@ namespace DemoEnvironmentVaultTool
             DialogResult dialogResult = MessageBox.Show("Are you sure to exit?", "Close the application", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
             if (dialogResult == DialogResult.OK)
             {
+                PrivilegedProtectedMode(1);
                 this.Close();
             }
             else if (dialogResult == DialogResult.Cancel)
@@ -570,10 +596,7 @@ namespace DemoEnvironmentVaultTool
             listCurrentVaults.Items.Clear();
             listCurrentVaults.MultiSelect = false;
             listCurrentVaults.FullRowSelect = true;
-            msg.ShowRestoreVaultMessage(false, prgLabel);
-            msg.ShowBuildingSnapshotMessage(false, prgLabel);
-            msg.ShowCopyingVaultMessage(false, prgLabel);
-            msg.ShowSafetyBackupMessage(false, prgLabel);
+            prgLabel.Visible = false;
 
             listCurrentVaults.Columns[0].ListView.Font = new Font(listCurrentVaults.Columns[0].ListView.Font, FontStyle.Bold);
 
@@ -716,41 +739,34 @@ namespace DemoEnvironmentVaultTool
         private void moreInfoButton_Click(object sender, EventArgs e)
         {
             string vaultName = String.Empty;
-            string vaultGUID = String.Empty;
-            string vaultDescription = String.Empty;
+            string pdfName = String.Empty;
             string destFile = String.Empty;
             string[] filesInDir;
-            char[] delimitChars = { '{', '}' };
-            string xmlFile = String.Empty;
 
             if (listCurrentVaults.SelectedItems.Count !=0 )
             {
                 try
                 {
                     vaultName = listCurrentVaults.SelectedItems[0].Text;
-                    vaultGUID = listCurrentVaults.SelectedItems[0].SubItems[Constants.vaultGUIDInfoLocation].Text; // note that vault GUID is stored to ListView 
                     listCurrentVaults.SelectedItems.Clear();
-                    string directory = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + Constants.xmlVaultConfPath;
+                    string directory = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + Constants.vaultDescriptionPath;
                     filesInDir = Directory.GetFiles(directory);
                     foreach (string filename in filesInDir)
                     {
-                        string[] splitText = filename.Split(delimitChars);
-                        string guid = "{" + splitText[1] + "}";
-                        if (guid == vaultGUID)
+                        pdfName = directory + vaultName + ".pdf";
+                        if (filename == pdfName)
                         {
                             destFile = filename;
                             break;
-                        }                    
+                        }
                     }
                     if (!File.Exists(destFile))
                     {
                         MessageBox.Show("There is no description available for vault " + vaultName + ".");
                         return;
                     }
-                    vaultDescription = ReadVaultData(destFile, "description");
-                    vaultDescription = "microsoft-edge:" + vaultDescription;
-                    Process.Start(vaultDescription);
-                    // Process.Start("MicrosoftEdge.exe", ReadVaultData(destFile, "description"));
+                    DescriptionViewer descView = new DescriptionViewer(destFile);
+                    descView.Show();
                 }
                 catch (Exception ex)
                 {
@@ -841,13 +857,17 @@ namespace DemoEnvironmentVaultTool
         {
 
           
-            enableDisableButton.Enabled = state;
-            moreInfoButton.Enabled = state;
-            closeButton.Enabled = state;
-            restoreFromBackUpButton.Enabled = state;
-            winUpdateButton.Enabled = state;
-            refreshButton.Enabled = state;
-            UpdateMFilesButton.Enabled = state;
+            enableDisableButton.Enabled = 
+            moreInfoButton.Enabled = 
+            closeButton.Enabled = 
+            restoreFromBackUpButton.Enabled = 
+            winUpdateButton.Enabled = 
+            refreshButton.Enabled = 
+            UpdateMFilesButton.Enabled = 
+            removeVaultButton.Enabled = 
+            connectionsButton.Enabled =
+            vaultAppManagerButton.Enabled =
+            updateLicenseButton.Enabled = state;
 
 
         }
@@ -887,10 +907,13 @@ namespace DemoEnvironmentVaultTool
             CloudFileDirectory configDir = vaultDir.GetDirectoryReference("Configs");
 
             // Copy first the configuration XML file to C:\Tools\Temp
+            localFileOperations.CreateTemp();
+            /*
             if (!Directory.Exists(Constants.tempPath))
             {
                 Directory.CreateDirectory(Constants.tempPath);
             }
+            */
 
             string tempDestFile = Constants.tempPath + vaultName + ".xml"; // First XML is copied to C:\Tools\Temp 
             using (var destStream = File.OpenWrite(tempDestFile))
@@ -991,7 +1014,8 @@ namespace DemoEnvironmentVaultTool
             MFilesOperations mFilesOperations = new MFilesOperations();
             CheckConnectivityStatusAndPollWinUpdates();
             RefreshVaultView();
-            ClearTemps();
+            localFileOperations.ClearTemp();
+            // ClearTemps();
             CheckMFilesUpdates();
             msg.ShowClientRestartMessage(true, prgLabel);
             mFilesOperations.RestartMFClientService();
@@ -1144,6 +1168,87 @@ namespace DemoEnvironmentVaultTool
         }
 
 
+
+        private void updateLicenseButton_Click_1(object sender, EventArgs e)
+        {
+            SetServerLicenseCode setServerLicenseCode = new SetServerLicenseCode();
+            setServerLicenseCode.Show();
+        }
+
+        public static string vGUID = String.Empty;
+
+
+        private void vaultManagerButton_Click(object sender, EventArgs e)
+        {
+            bool onlineVault = false;
+            UserMessages msg = new UserMessages();
+            if (listCurrentVaults.SelectedItems.Count == 0)
+            {
+                MessageBox.Show(Constants.selectVaultForAppManager);
+                listCurrentVaults.SelectedItems.Clear();
+                return;
+            }
+            string vaultGuid = listCurrentVaults.SelectedItems[0].SubItems[Constants.vaultGUIDInfoLocation].Text;
+            // VaultNotification vaultNotification = new VaultNotification();
+            MFilesServerApplication oMFServerApp = MFilesOperations.GetMFServerConnection();
+            if (oMFServerApp.GetOnlineVaults().GetVaultIndexByGUID(vaultGuid) == -1)
+            {
+                
+                if (!vaultOnlineWorker.IsBusy)
+                {
+                    ButtonsEnabled(false);
+                    msg.ShowVaultOnlineMessage(true, prgLabel);
+
+                    onlineVault = true;
+                    List<object> workerArguments = new List<object>();
+                    workerArguments.Add(vaultGuid);
+                    vaultOnlineWorker.RunWorkerAsync(workerArguments);
+                }
+
+            }
+
+            VaultAppManager vaultAppManager = new VaultAppManager(vaultGuid,
+                listCurrentVaults.SelectedItems[0].SubItems[Constants.vaultNameInfoLocation].Text, onlineVault);
+            ButtonsEnabled(true);
+            vaultAppManager.Show();
+
+        }
+
+        protected void vaultOnlineWorker_DoWork(object sender, DoWorkEventArgs e)
+        {
+            BackgroundWorker sendingWorker = (BackgroundWorker)sender; // Capture the BackgroudWorker that fired the event
+
+            List<object> genericlist = e.Argument as List<object>;
+            string vaultGUID = (string)genericlist[0];
+            MFilesServerApplication oMFServerApp = MFilesOperations.GetMFServerConnection();
+            oMFServerApp.VaultManagementOperations.BringVaultOnline(vaultGUID);
+        }
+
+        protected void vaultOnlineWorker_ProgressChanged(object sender, ProgressChangedEventArgs e)
+        {
+
+        }
+        protected void vaultOnlineWorker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+        {
+            UserMessages msg = new UserMessages();
+            msg.ShowVaultOnlineMessage(false, prgLabel);
+            ButtonsEnabled(true);
+
+        }
+
+        private void PrivilegedProtectedMode(int value)
+        {
+            // By default this value in Registry is 1. It must be 0 for AxAcroPDF to show the document.
+            string keyName = @"SOFTWARE\Adobe\Acrobat Reader\DC\Privileged";
+            using (RegistryKey key = Registry.CurrentUser.OpenSubKey(keyName, true))
+            {
+                if (key != null)
+                {
+                    key.SetValue("bProtectedMode", value, RegistryValueKind.DWord);
+                    key.Close();
+                }
+            }
+        }
     }
        
 }

@@ -5,25 +5,31 @@ using System.Drawing;
 using System.Linq;
 using System.IO;
 using System.Windows.Forms;
-using System.Diagnostics;
 using Microsoft.WindowsAzure.Storage.File;
 using MFilesAPI;
-
 
 namespace DemoEnvironmentVaultTool
 {
     public partial class VaultDownload : Form
     {
         Form1 mainForm;
-        bool onlyConfFile = false; // flag is there is only vault configuration file in Azure (in case of cloud vault)
+        bool onlyConfFile = false;
 
 
         public VaultDownload(Form1 incomingForm)
         {
             mainForm = incomingForm;
             InitializeComponent();
+            this.MinimumSize = new Size(842, 779);
+            this.MaximumSize = new Size(842, 779);
 
-            
+            UserMessages msg = new UserMessages();
+            MFilesOperations mFilesOperations = new MFilesOperations();
+            string serverVersion = mFilesOperations.GetMFServerVersion();
+            msg.ShowMFilesVersion(true, mFVersionInfo, serverVersion);
+            LocalFileOperations localFileOperations = new LocalFileOperations();
+
+
             restoreBackUpWorker.DoWork += new DoWorkEventHandler(restoreBackUpWorker_DoWork);
             restoreBackUpWorker.RunWorkerCompleted += new RunWorkerCompletedEventHandler(restoreBackUpWorker_RunWorkerCompleted);
             restoreBackUpWorker.ProgressChanged += new ProgressChangedEventHandler(restoreBackUpWorker_ProgressChanged);
@@ -49,14 +55,65 @@ namespace DemoEnvironmentVaultTool
             {
                 if (azureOperations.ConnectToAzureFiles())
                 {
+                    RefreshAvailableConnectionsView();
                     RefreshAvailableVaultsView();
-
                 }
             }
         }
 
+        private string VersionWithPaddingZeros(string rawVersionNumber)
+        {
+            String[] dot = { "." };
+            int count = 4;
+            string versionNumberWithPadding = string.Empty;
+
+            String[] versionList = rawVersionNumber.Split(dot, count, StringSplitOptions.RemoveEmptyEntries);
+            if (versionList[1].Length < 2)
+                versionList[1] = string.Format("{0:00}", versionList[1].PadLeft(2, '0'));
+            if (versionList[3].Length < 2)
+                versionList[3] = string.Format("{0:00}", versionList[3].PadLeft(2, '0'));
+            foreach (string s in versionList)
+                versionNumberWithPadding = versionNumberWithPadding + s;
+            return versionNumberWithPadding;
+        }
+
+        private void RefreshAvailableConnectionsView()
+        {
+            availableConnectionsView.Items.Clear();
+            availableConnectionsView.MultiSelect = false;
+            availableConnectionsView.FullRowSelect = true;
+            availableConnectionsView.Columns[0].ListView.Font = new Font(availableConnectionsView.Columns[0].ListView.Font, FontStyle.Bold);
+
+            AzureOperations azureOperations = new AzureOperations();
+            CloudFileShare share = azureOperations.GetVaultFileShareInAzure(); //democontent
+            var directories = share.GetRootDirectoryReference()
+                .GetDirectoryReference(Constants.connectionDataDirectoryNameInAzure) //CloudVaultConnections
+                .ListFilesAndDirectories()
+                .OfType<CloudFileDirectory>();
+
+           
+            foreach (var directory in directories)
+            {
+                RepositoryVault rConnection = connectionExist(directory.Name);
+
+                if (!rConnection.connectionExistInEnv)
+                {
+
+                    ListViewItem lv = new ListViewItem(directory.Name);
+                    lv.Font = new Font("Microsoft Sans Serif", 10, FontStyle.Regular);
+                    lv.SubItems.Add(rConnection.vaultDate);
+                    
+                    availableConnectionsView.Items.Add(lv);
+                }
+
+            }
+            availableConnectionsView.SelectedItems.Clear();
+            return;
+        }
+
         private void RefreshAvailableVaultsView()
         {
+
             listAvailableVaults.Items.Clear();
             listAvailableVaults.MultiSelect = false;
             listAvailableVaults.FullRowSelect = true;
@@ -73,14 +130,19 @@ namespace DemoEnvironmentVaultTool
             {
                 RepositoryVault rVault = vaultExist(directory.Name);
 
+
+
                 if (!rVault.vaultExistInEnv)
                 {
-                    ListViewItem lvi = new ListViewItem(directory.Name);
-                    lvi.Font = new Font("Microsoft Sans Serif", 10, FontStyle.Regular);
-                    lvi.SubItems.Add(rVault.vaultVersion);
-                    lvi.SubItems.Add(rVault.vaultDate);
-                    lvi.SubItems.Add(rVault.vaultGUID); // This is NOT visible in the listing, but is needed in later phases
-                    listAvailableVaults.Items.Add(lvi);
+
+                        ListViewItem lvi = new ListViewItem(directory.Name);
+                        lvi.Font = new Font("Microsoft Sans Serif", 10, FontStyle.Regular);
+                        lvi.SubItems.Add(rVault.vaultVersion);
+                        lvi.SubItems.Add(rVault.vaultDate);
+                        lvi.SubItems.Add(rVault.mFilesVersion);
+                        lvi.SubItems.Add(rVault.vaultGUID); // This is NOT visible in the listing, but is needed in later phases
+                        listAvailableVaults.Items.Add(lvi);
+                    
                 }
             }
 
@@ -91,50 +153,52 @@ namespace DemoEnvironmentVaultTool
         private struct RepositoryVault
         {
             public bool vaultExistInEnv;
+            public bool connectionExistInEnv;
+            public string vaultType;
             public string vaultVersion;
             public string vaultDate;
+            public string mFilesVersion;
             public string vaultGUID;
             public bool takeSafetyBackup;
         }
 
-        private RepositoryVault vaultExist(string vaultName) // Read the data from the vault in Vault Library (Repository) 
+        private RepositoryVault connectionExist(string connectionName)  // Read the data from the cloud connection xml file in Repository
         {
-            RepositoryVault vaultData;
-            vaultData.vaultExistInEnv = false;
-            vaultData.vaultDate = String.Empty;
-            vaultData.vaultVersion = String.Empty;
-            vaultData.vaultGUID = String.Empty;
-            vaultData.takeSafetyBackup = false;
-
+            LocalFileOperations localFileOperations = new LocalFileOperations();
+            RepositoryVault connectionData;
+            connectionData.connectionExistInEnv = false;
+            connectionData.vaultDate = String.Empty;
+            connectionData.vaultVersion = String.Empty;
             string vaultVersion = String.Empty;
 
             AzureOperations azureOperations = new AzureOperations();
 
-            CloudFileDirectory vaultDir = azureOperations.GetVaultDirectoryInAzure(vaultName);
-            CloudFileDirectory configDir = vaultDir.GetDirectoryReference("Configs");
+            CloudFileDirectory connectionDir = azureOperations.GetConnectionDirectoryInAzure(connectionName);
 
             // Copy first the configuration XML file to C:\Tools\Temp
+
+            localFileOperations.CreateTemp();
+            /*
             if (!Directory.Exists(Constants.tempPath))
             {
                 Directory.CreateDirectory(Constants.tempPath);
             }
+            */
 
-            string tempDestFile = Constants.tempPath + vaultName + ".xml"; // First XML is copied to C:\Tools\Temp 
+            // Copy XML from Repo to C:\tools\temp ***************************************************************************
+
+            string tempDestFile = Constants.tempPath + connectionName + ".xml"; // First XML is copied to C:\Tools\Temp 
             using (var destStream = File.OpenWrite(tempDestFile))
             {
-                var sourceFile = configDir.GetFileReference(vaultName + ".xml");
+                var sourceFile = connectionDir.GetFileReference(connectionName + ".xml");
                 sourceFile.DownloadToStream(destStream);
             }
+            // ****************************************************************************************************************
 
-            // If the vault exist in demo environment, read its creation date from the config XML file (to existingVaultDate)  
-            // and compare it to the creation date read from the downloaded XML file (repositoryVaultDate)
-
-            // Read GUID of the vault from downloaded XML file. That is the value of GUID in the vault in repository
-            // string tempXMLFile = Constants.tempPath + vaultName + ".xml";
             string vaultGUID = String.Empty;
             string repositoryVaultDate = String.Empty;
             string existingVaultDate = String.Empty;
-            bool vaultExist = true;
+            bool connectionExist = false;
 
             foreach (var element in XmlHelper.StreamConnections(tempDestFile))
             {
@@ -149,15 +213,18 @@ namespace DemoEnvironmentVaultTool
             {
                 File.Delete(tempDestFile);
             }
-            string vName = vaultFound(vaultGUID);
-            if (vName != null)
+
+            connectionExist = connectionFound(connectionName, vaultGUID);
+
+            if (connectionExist)
             {
 
-                // If GUID is found => there is vault already => we need to compare dates
+                // If GUID is found => there is connection already => we need to compare dates
                 // Read date of the existing vault to exVaultDate string
 
                 string envDirectory = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
-                string confFile = envDirectory + Constants.xmlVaultConfPath + vaultName + "_" + vaultGUID + ".xml";
+                string confFile = envDirectory + Constants.xmlVaultConfPath + connectionName + "_" + vaultGUID + ".xml";
+
                 foreach (var element in XmlHelper.StreamConnections(confFile))
                 {
                     existingVaultDate = element.VaultDate;
@@ -170,26 +237,172 @@ namespace DemoEnvironmentVaultTool
                 if (eVaultDate.Date < rVaultDate.Date) // existing vault is older than the one in the repo
                                                        // => 
                                                        // existing vault is destroyed and new can be downloaded 
+
+                {
+                    connectionExist = false;
+                }
+                else
+                {
+                    connectionExist = true; // Existing vault is newer than the one in the repo.
+
+                }
+            }
+
+            else
+            {
+                // There was not earlier vault with the same GUID => new vault in the repo => ok to download
+                connectionExist = false;
+
+            }
+
+            connectionData.connectionExistInEnv = connectionExist;
+            connectionData.vaultDate = repositoryVaultDate;
+            connectionData.vaultVersion = vaultVersion;
+            connectionData.vaultGUID = vaultGUID;
+            connectionData.vaultExistInEnv = false;
+            connectionData.vaultType = "CloudDefault";
+            connectionData.mFilesVersion = "NA";
+            connectionData.takeSafetyBackup = false;
+
+            return connectionData;
+
+        } // connectionExist
+
+
+
+        private RepositoryVault vaultExist(string vaultName) // Read the data from the vault in Vault Library (Repository) 
+        {
+            RepositoryVault vaultData;
+            vaultData.vaultExistInEnv = false;
+            vaultData.connectionExistInEnv = false;
+            vaultData.vaultDate = String.Empty;
+            vaultData.vaultVersion = String.Empty;
+            vaultData.mFilesVersion = String.Empty;
+            vaultData.vaultGUID = String.Empty;
+            vaultData.vaultType = String.Empty;
+            vaultData.takeSafetyBackup = false;
+            LocalFileOperations localFileOperations = new LocalFileOperations();
+
+
+
+            string vaultVersion = String.Empty;
+
+            AzureOperations azureOperations = new AzureOperations();
+
+            CloudFileDirectory vaultDir = azureOperations.GetVaultDirectoryInAzure(vaultName);
+            CloudFileDirectory configDir = vaultDir.GetDirectoryReference("Configs");
+
+            // Copy first the configuration XML file to C:\Tools\Temp
+            localFileOperations.CreateTemp();
+            /*
+            if (!Directory.Exists(Constants.tempPath))
+            {
+                Directory.CreateDirectory(Constants.tempPath);
+            }
+            */
+
+            // Copy XML from Repo to C:\tools\temp ***************************************************************************
+
+            string tempDestFile = Constants.tempPath + vaultName + ".xml"; // First XML is copied to C:\Tools\Temp 
+            using (var destStream = File.OpenWrite(tempDestFile))
+            {
+                var sourceFile = configDir.GetFileReference(vaultName + ".xml");
+                sourceFile.DownloadToStream(destStream);
+            }
+            // ****************************************************************************************************************
+
+
+
+            // If the vault xist in demo environment, read its creation date from the config XML file (to existingVaultDate)  
+            // and compare it to the creation date read from the downloaded XML file (repositoryVaultDate)
+
+            // Read GUID of the vault from downloaded XML file. That is the value of GUID in the vault in repository
+            // string tempXMLFile = Constants.tempPath + vaultName + ".xml";
+            string vaultGUID = String.Empty;
+            string repositoryVaultDate = String.Empty;
+            string existingVaultDate = String.Empty;
+            string mFilesVersion = String.Empty;
+            string vaultType = String.Empty;
+            bool vaultExist = true;
+
+
+            foreach (var element in XmlHelper.StreamConnections(tempDestFile))
+            {
+                vaultVersion = element.VaultVersion;
+                vaultType = element.VaultType;
+                vaultGUID = element.ServerVaultGUID;
+                repositoryVaultDate = element.VaultDate;
+                mFilesVersion = element.MFilesVersion;
+                break;
+            }
+
+            // Delete downloaded XML file right away from C:\Tools\Temp, but check if exist first
+            if (File.Exists(tempDestFile))
+            {
+                File.Delete(tempDestFile);
+            }
+            
+            string vName = vaultFound(vaultGUID);
+
+            if (vName != null)
+            {
+
+                // If GUID is found => there is vault already => we need to compare dates
+                // Read date of the existing vault to exVaultDate string
+
+                string envDirectory = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+                string confFile = envDirectory + Constants.xmlVaultConfPath + vaultName + "_" + vaultGUID + ".xml";
+                
+                foreach (var element in XmlHelper.StreamConnections(confFile))
+                {
+                    existingVaultDate = element.VaultDate;
+                    break;
+                }
+                // convert date strings to DateTime
+                DateTime rVaultDate = DateTime.Parse(repositoryVaultDate);
+                DateTime eVaultDate = DateTime.Parse(existingVaultDate);
+               
+                if (eVaultDate.Date < rVaultDate.Date) // existing vault is older than the one in the repo
+                                                       // => 
+                                                       // existing vault is destroyed and new can be downloaded 
+                
                 {
                     vaultExist = false;
-
                 }
                 else
                 {
                     vaultExist = true; // Existing vault is newer than the one in the repo.
+
                 }
             }
+
             else
             {
                 // There was not earlier vault with the same GUID => new vault in the repo => ok to download
                 vaultExist = false;
+
             }
+
+            
+
+
             vaultData.vaultExistInEnv = vaultExist;
             vaultData.vaultVersion = vaultVersion;
             vaultData.vaultDate = repositoryVaultDate;
             vaultData.vaultGUID = vaultGUID;
+            vaultData.mFilesVersion = mFilesVersion;
+            vaultData.vaultType = vaultType;
 
             return vaultData;
+        }
+
+        private bool connectionFound(string connectionName, string vaultGUID)
+        {
+            string envDirectory = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+            string confFileInSystem = envDirectory + Constants.xmlVaultConfPath + connectionName + "_" + vaultGUID + ".xml";
+            if (!File.Exists(confFileInSystem))
+                return false;
+            return true;
         }
 
         private string vaultFound(string guid)
@@ -223,10 +436,25 @@ namespace DemoEnvironmentVaultTool
             string installationMessage = String.Format(Constants.vaultInstallationNewMessage, vaultNameInRepo);
             MessageBoxIcon messageBoxIcon = MessageBoxIcon.Information;
 
+            // Mark down the current M-Files server version.
+            MFilesOperations mFilesOperations = new MFilesOperations();
+            string serverVersion = mFilesOperations.GetMFServerVersion();
+            uint mFserverVersion = UInt32.Parse(VersionWithPaddingZeros(serverVersion));
+
             RepositoryVault rVault = vaultExist(vaultNameInRepo);
 
             if (!rVault.vaultExistInEnv)
             {
+
+                uint vaultMFVersion = UInt32.Parse(VersionWithPaddingZeros(rVault.mFilesVersion));
+                if (mFserverVersion < vaultMFVersion)
+                {
+                    string vaultMFVersionMessage = String.Format(Constants.needToUpdateMFilesMessage, rVault.mFilesVersion);
+                    messageBoxIcon = MessageBoxIcon.Error;
+                    MessageBox.Show(vaultMFVersionMessage, Constants.mFilesVersionMismatchTitle, MessageBoxButtons.OK, messageBoxIcon);
+                    return;
+                }
+
                 MFilesServerApplication oMFServerApp = MFilesOperations.GetMFServerConnection();
                 VaultsOnServer oVaults = oMFServerApp.GetVaults();
                 foreach (VaultOnServer oOneVault in oVaults)
@@ -260,16 +488,19 @@ namespace DemoEnvironmentVaultTool
                     }
                 }
             }
-
         }
 
         protected void vaultDownloadWorker_DoWork(object sender, DoWorkEventArgs e)
         {
             BackgroundWorker sendingWorker = (BackgroundWorker)sender; // Capture the BackgroudWorker that fired the event
+            LocalFileOperations localFileOperations = new LocalFileOperations();
+            localFileOperations.CreateTemp();
+            /*
             if (!Directory.Exists(Constants.tempPath))
             {
                 Directory.CreateDirectory(Constants.tempPath);
             }
+            */
             // Vault is downloaded in blocks (size defined in segmentSize variable) to inform download progress
             string vaultName = e.Argument.ToString();
 
@@ -321,11 +552,26 @@ namespace DemoEnvironmentVaultTool
             // It is first downloaded to \Tools\Temp directory
 
             string tempXmlFile = Constants.tempPath + vaultName + ".xml";
+            
+
 
             using (var destStream = File.OpenWrite(tempXmlFile))
             {
-                var sourceFile = configDir.GetFileReference(vaultName + ".xml");
-                sourceFile.DownloadToStream(destStream);
+                var sourceXmlFile = configDir.GetFileReference(vaultName + ".xml");
+                sourceXmlFile.DownloadToStream(destStream);
+            }
+
+            // Check if there is a vault description file exist and
+            // download description PDF file to %appdata%\M-Files\Demo Vault Tool\Descriptions
+            var sourcePdfFile = configDir.GetFileReference(vaultName + ".pdf");
+            if (sourcePdfFile.Exists())
+            {
+                string pdfFile = directory + Constants.vaultDescriptionPath + vaultName + ".pdf";
+                using (var destStream = File.OpenWrite(pdfFile))
+                {
+                    // var sourceFile = configDir.GetFileReference(vaultName + ".pdf");               
+                    sourcePdfFile.DownloadToStream(destStream);
+                }
             }
 
             // In this phase we need to read the content of the downloaded vaultname.xml
@@ -519,6 +765,7 @@ namespace DemoEnvironmentVaultTool
 
         protected void restoreBackUpWorker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
+            LocalFileOperations localFileOperations = new LocalFileOperations();
             UserMessages msg = new UserMessages();
             if (e.Error == null)
             {
@@ -535,11 +782,13 @@ namespace DemoEnvironmentVaultTool
             msg.ShowRestoreVaultMessage(false, prgLabel);
             RefreshAvailableVaultsView();
             mainForm.RefreshVaultView();
-            
+            localFileOperations.ClearTemp();
+            /*
             if (Directory.Exists(Constants.tempPath))
             {
                 Directory.Delete(Constants.tempPath, true);
             }
+            */
 
         }
 
@@ -549,6 +798,7 @@ namespace DemoEnvironmentVaultTool
             // * description
             // * date
             // * version
+            // * mfilesversion
             // * GUID
             // * Vault Name
             // * Vault Type
@@ -563,6 +813,10 @@ namespace DemoEnvironmentVaultTool
 
                     case "description":
                         returnData = element.VaultDescription;
+                        break;
+
+                    case "mfilesversion":
+                        returnData = element.MFilesVersion;
                         break;
 
                     case "vaulttype":
@@ -672,6 +926,7 @@ namespace DemoEnvironmentVaultTool
             moreInfoButton.Enabled = state;
             closeButton.Enabled = state;
             addToDemoButton.Enabled = state;
+            addConnectionButton.Enabled = state;
         }
 
         private void closeButton_Click(object sender, EventArgs e)
@@ -705,19 +960,23 @@ namespace DemoEnvironmentVaultTool
         private void moreInfoButton_Click(object sender, EventArgs e)
         {
             string vaultName = String.Empty;
-            string vaultGUID = String.Empty;
-            string vaultDescription = String.Empty;
+            // string vaultGUID = String.Empty;
+            // string vaultDescription = String.Empty;
             string destFile = String.Empty;
+            LocalFileOperations localFileOperations = new LocalFileOperations();
 
-            char[] delimitChars = { '{', '}' };
-            string xmlFile = String.Empty;
+            // char[] delimitChars = { '{', '}' };
+            // string xmlFile = String.Empty;
 
             if (listAvailableVaults.SelectedItems.Count != 0)
             {
+                localFileOperations.CreateMoreInfoPath();
+                /*
                 if (!Directory.Exists(Constants.moreInfoPath))
                 {
                     Directory.CreateDirectory(Constants.moreInfoPath);
                 }
+                */
                 try
                 {
                     vaultName = listAvailableVaults.SelectedItems[0].Text;
@@ -726,22 +985,74 @@ namespace DemoEnvironmentVaultTool
 
                     CloudFileDirectory vaultDir = azureOperations.GetVaultDirectoryInAzure(vaultName);
                     CloudFileDirectory configDir = vaultDir.GetDirectoryReference("Configs");
-                    destFile = Constants.moreInfoPath + vaultName + ".xml";
+                    destFile = Constants.moreInfoPath + vaultName + ".pdf";
                     using (var destStream = File.OpenWrite(destFile))
                     {
-                        var sourceFile = configDir.GetFileReference(vaultName + ".xml");
+                        var sourceFile = configDir.GetFileReference(vaultName + ".pdf");
                         sourceFile.DownloadToStream(destStream);
                     }
-                    vaultDescription = ReadVaultData(destFile, "description");
-                    vaultDescription = "microsoft-edge:" + vaultDescription;
-                    Process.Start(vaultDescription);
-                    Directory.Delete(Constants.moreInfoPath, true);
+                    DescriptionViewer descView = new DescriptionViewer(destFile);
+                    descView.Show();
+                    localFileOperations.ClearMoreInfoPath();
+                    // Directory.Delete(Constants.moreInfoPath, true);
                 }
                 catch (Exception ex)
                 {
                     MessageBox.Show(ex.Message);
                 }
             }
+        }
+
+        private void listAvailableVaults_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void addConnectionButton_Click(object sender, EventArgs e)
+        {
+            string connectionName = String.Empty;
+            string vaultGUID = String.Empty;
+            string confFileName = String.Empty;
+
+            if (availableConnectionsView.SelectedItems.Count == 0)
+            {
+                MessageBox.Show(Constants.selectConnectionToBeDownloaded);
+                return;
+            }
+
+            if (availableConnectionsView.SelectedItems.Count != 0)
+            {
+                connectionName = availableConnectionsView.SelectedItems[0].Text;
+                // Copy xml from repository to Demo Environment
+
+                AzureOperations azureOperations = new AzureOperations();
+                CloudFileDirectory connectionDir = azureOperations.GetConnectionDirectoryInAzure(connectionName);
+
+                string directory = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+                // In the Repository, the XML file is in format vaultName.xml. 
+                // It is first downloaded to \Tools\Temp directory
+
+                string tempXmlFile = Constants.tempPath + connectionName + ".xml";
+
+
+
+                using (var destStream = File.OpenWrite(tempXmlFile))
+                {
+                    var sourceFile = connectionDir.GetFileReference(connectionName + ".xml");
+                    sourceFile.DownloadToStream(destStream);
+                }
+                // In this phase we need to read the content of the downloaded vaultname.xml
+                // to define what is the vault GUID. We read <VaultGUID> valiue from the XML
+                // and rename vaultname.xml to vaultname_vaultGUID.xml.
+                vaultGUID = ReadVaultData(tempXmlFile, "guid");
+                confFileName = directory + Constants.xmlVaultConfPath + connectionName + "_" + vaultGUID + ".xml";
+                // Copy vaultname.xml as vaultname_vaultGUID.xml to %appdata%\M-Files\Demo Vault Tool\VaultConf
+                File.Copy(tempXmlFile, confFileName, true);
+                File.Delete(tempXmlFile);
+                RefreshAvailableConnectionsView();
+                MessageBox.Show(String.Format(Constants.cloudVaultConnectionAdded, connectionName));
+            }
+
         }
     }
 }

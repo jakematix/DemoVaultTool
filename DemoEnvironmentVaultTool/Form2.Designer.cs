@@ -52,6 +52,7 @@
             this.columnHeader1,
             this.columnHeader3});
             this.availableVaults.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.availableVaults.HideSelection = false;
             this.availableVaults.Location = new System.Drawing.Point(18, 34);
             this.availableVaults.Name = "availableVaults";
             this.availableVaults.Size = new System.Drawing.Size(317, 279);
@@ -78,6 +79,7 @@
             this.columnHeader2,
             this.columnHeader4});
             this.enabledVaults.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.enabledVaults.HideSelection = false;
             this.enabledVaults.Location = new System.Drawing.Point(19, 34);
             this.enabledVaults.Name = "enabledVaults";
             this.enabledVaults.Size = new System.Drawing.Size(317, 279);
@@ -99,7 +101,8 @@
             // 
             // enableButton
             // 
-            this.enableButton.BackColor = System.Drawing.Color.SteelBlue;
+            this.enableButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(140)))), ((int)(((byte)(204)))));
+            this.enableButton.FlatAppearance.BorderSize = 0;
             this.enableButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.enableButton.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.enableButton.ForeColor = System.Drawing.Color.White;
@@ -113,7 +116,8 @@
             // 
             // disableButton
             // 
-            this.disableButton.BackColor = System.Drawing.Color.SteelBlue;
+            this.disableButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(140)))), ((int)(((byte)(204)))));
+            this.disableButton.FlatAppearance.BorderSize = 0;
             this.disableButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.disableButton.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.disableButton.ForeColor = System.Drawing.Color.White;
@@ -127,7 +131,8 @@
             // 
             // closeButton
             // 
-            this.closeButton.BackColor = System.Drawing.Color.SteelBlue;
+            this.closeButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(140)))), ((int)(((byte)(204)))));
+            this.closeButton.FlatAppearance.BorderSize = 0;
             this.closeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.closeButton.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.closeButton.ForeColor = System.Drawing.Color.White;

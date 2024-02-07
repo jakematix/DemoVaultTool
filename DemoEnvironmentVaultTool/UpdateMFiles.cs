@@ -25,9 +25,13 @@ namespace DemoEnvironmentVaultTool
             mFilesDownloadWorker.RunWorkerCompleted += new RunWorkerCompletedEventHandler(mFilesDownloadWorker_RunWorkerCompleted);
             mFilesDownloadWorker.ProgressChanged += new ProgressChangedEventHandler(mFilesDownloadWorker_ProgressChanged);
             mFilesDownloadWorker.WorkerReportsProgress = true;
+            LocalFileOperations localFileOperations = new LocalFileOperations();
 
+            localFileOperations.ClearUpdateTempPath();
+            /*
             if (Directory.Exists(Constants.updateTempPath))
                 Directory.Delete(Constants.updateTempPath, true);
+            */
 
             mFVersionLabel.Visible = false;
             updVersionLabel.Visible = false;
@@ -194,6 +198,7 @@ namespace DemoEnvironmentVaultTool
 
         private void updateMFiles()
         {
+            LocalFileOperations localFileOperations = new LocalFileOperations();
             progressLabel.Visible = false;
             Refresh();
             DirectoryInfo updTempDir = new DirectoryInfo(Constants.updateTempPath);
@@ -209,7 +214,8 @@ namespace DemoEnvironmentVaultTool
             }
             else
             {
-                Directory.Delete(Constants.updateTempPath, true);
+                // Directory.Delete(Constants.updateTempPath, true);
+                localFileOperations.ClearUpdateTempPath();
                 MessageBox.Show("Operation cancelled!");
             }
         }

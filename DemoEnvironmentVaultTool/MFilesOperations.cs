@@ -56,9 +56,48 @@ namespace DemoEnvironmentVaultTool
 
         public string GetMFServerVersion()
         {
-            // MFilesServerApplication mFilesServer = new MFilesServerApplication();
             MFilesServerApplication oMFServerApp = GetMFServerConnection();
             return oMFServerApp.GetServerVersion().Display;
+        }
+
+        public LicenseStatus GetServerLicenseStatus()
+        {
+            MFilesServerApplication oMFServerApp = GetMFServerConnection();
+            return oMFServerApp.LicenseManagementOperations.GetLicenseStatus();
+        }
+
+        public bool SetServerLicense(string serialNumber, string licenseCode)
+        {
+            try
+            {
+                MFilesServerApplication oMFServerApp = GetMFServerConnection();
+                oMFServerApp.LicenseManagementOperations.SetLicenseCodeAndSerialNumber(serialNumber, licenseCode);
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+            return true;
+        }
+
+        public ulong MFilesVersionWithPaddingZeros(string rawVersionNumber)
+        {
+            // Converts M-Files version number to number with padding zeros that can be compared to other one.
+            String[] dot = { "." };
+            int count = 4;
+            string versionNumberWithPadding = string.Empty;
+
+            String[] versionList = rawVersionNumber.Split(dot, count, StringSplitOptions.RemoveEmptyEntries);
+            if (versionList[1].Length < 2)
+                versionList[1] = string.Format("{0:00}", versionList[1].PadLeft(2, '0'));
+            if (versionList.Length >= 4)
+            {
+                if (versionList[3].Length < 2)
+                    versionList[3] = string.Format("{0:00}", versionList[3].PadLeft(2, '0'));
+            }
+            foreach (string s in versionList)
+                versionNumberWithPadding = versionNumberWithPadding + s;
+            return UInt64.Parse(versionNumberWithPadding);
         }
     }
 }

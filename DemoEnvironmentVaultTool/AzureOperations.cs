@@ -1,12 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Microsoft.Azure;
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.File;
 using System.Windows.Forms;
+using System.IO;
 
 namespace DemoEnvironmentVaultTool
 {
@@ -32,7 +30,7 @@ namespace DemoEnvironmentVaultTool
 
         public CloudFileDirectory GetVaultDirectoryInAzure(string vaultName)
         {
-            // Return cloud file directory in Azure File Sharw based on tha vault name
+            // Return cloud file directory in Azure File Share based on tha vault name
             try
             {
                 CloudFileShare share = GetVaultFileShareInAzure();
@@ -41,6 +39,44 @@ namespace DemoEnvironmentVaultTool
                 CloudFileDirectory vaultsDir = rootDir.GetDirectoryReference(Constants.vaultDirectoryNameInAzure);
                 CloudFileDirectory vaultDir = vaultsDir.GetDirectoryReference(vaultName);
                 return vaultDir;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Something went wrong when accessing Azure Cloud Directory.\r\n" + ex.Message);
+                return null;
+            }
+        }
+
+        public CloudFileDirectory GetConnectionDirectoryInAzure(string connectionName)
+        {
+            // Return cloud file directory in Azure File Share based on the connection name
+            try
+            {
+                CloudFileShare share = GetVaultFileShareInAzure();
+
+                CloudFileDirectory rootDir = share.GetRootDirectoryReference();
+                CloudFileDirectory connectionsDir = rootDir.GetDirectoryReference(Constants.connectionDataDirectoryNameInAzure);
+                CloudFileDirectory connectionDir = connectionsDir.GetDirectoryReference(connectionName);
+                return connectionDir;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Something went wrong when accessing Azure Cloud Directory.\r\n" + ex.Message);
+                return null;
+            }
+        }
+
+        public CloudFileDirectory GetApplicationDirectoryInAzure(string applicationGUID)
+        {
+            // Return cloud file directory in Azure File Share based on the application GUID
+            try
+            {
+                CloudFileShare share = GetVaultFileShareInAzure();
+
+                CloudFileDirectory rootDir = share.GetRootDirectoryReference();
+                CloudFileDirectory applicationsDir = rootDir.GetDirectoryReference(Constants.applicationDirectoryNameInAzure);
+                CloudFileDirectory appDir = applicationsDir.GetDirectoryReference(applicationGUID);
+                return appDir;
             }
             catch (Exception ex)
             {

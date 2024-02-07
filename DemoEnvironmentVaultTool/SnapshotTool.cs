@@ -17,8 +17,8 @@ namespace DemoEnvironmentVaultTool
         {
             mainForm = incomingForm;
             InitializeComponent();
-            this.MinimumSize = new Size(828, 584);
-            this.MaximumSize = new Size(828, 584);
+            this.MinimumSize = new Size(1090, 533);
+            this.MaximumSize = new Size(1090, 533);
 
             RefreshVaultView();
             RefreshSnapshotView();
@@ -636,6 +636,12 @@ namespace DemoEnvironmentVaultTool
             XmlNode vaultTypeNode = confFile.CreateElement("VaultType");
             vaultTypeNode.AppendChild(confFile.CreateTextNode("LocalCopy"));
             descriptionsNode.AppendChild(vaultTypeNode);
+
+            MFilesOperations mFilesOperations = new MFilesOperations();
+            string serverVersion = mFilesOperations.GetMFServerVersion();
+            XmlNode mFilesVersionNode = confFile.CreateElement("MFilesVersion");
+            mFilesVersionNode.AppendChild(confFile.CreateTextNode(serverVersion));
+            descriptionsNode.AppendChild(mFilesVersionNode);
 
             XmlNode vaultConnectionNode = confFile.CreateElement("VaultConnection");
             vaultConnectionsNode.AppendChild(vaultConnectionNode);
